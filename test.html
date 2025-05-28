@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Ben Salah Meriam - CV</title>
+<link href="./testStyle.css" rel="stylesheet" />
+</head>
+
+<body>
+  <button class="theme-toggle" onclick="toggleTheme()">🌙</button>
+
+  <div class="container">
+      <div class="header-bg">
+          <header>
+              <h1>Ben Salah Meriam</h1>
+              <h2>Junior QA Automation Engineer</h2>
+          </header>
+      </div>
+
+      <section class="profile">
+          <div class="profile-img">M</div>
+          <div class="contact-info">
+              <div class="contact-item">
+                  <span>📍 Tunis, Lac 1</span>
+              </div>
+              <div class="contact-item">
+                  <span>📧 bensalah.meriem@gmail.com</span>
+              </div>
+              <div class="contact-item">
+                  <span>📞 +216 94 053 439</span>
+              </div>
+          </div>
+          <div class="socials">
+              <a href="#" target="_blank">LinkedIn</a>
+              <a href="#" target="_blank">GitHub</a>
+          </div>
+      </section>
+
+      <section class="buttons">
+          <button onclick="toggleSection('skills')">Skills</button>
+          <button onclick="toggleSection('projects')">Projects</button>
+          <button onclick="toggleSection('certificates')">Certificates</button>
+      </section>
+
+      <section id="skills" class="hidden toggle-section">
+          <h3>💼 Technical Skills</h3>
+          <div class="skills-grid" id="skills-container">
+              <!-- Contenu généré dynamiquement -->
+          </div>
+      </section>
+
+      <section id="projects" class="hidden toggle-section">
+          <h3>🚀 Featured Projects</h3>
+          <div class="projects-grid" id="projects-container">
+              <!-- Contenu généré dynamiquement -->
+          </div>
+      </section>
+
+      <section id="certificates" class="hidden toggle-section">
+          <h3>🏆 Certifications & Achievements</h3>
+          <div class="certificates-grid" id="certificates-container">
+              <!-- Contenu généré dynamiquement -->
+          </div>
+      </section>
+  </div>
+
+ <script  src="./testscript.js" ></script>
+</body>
+</html>
